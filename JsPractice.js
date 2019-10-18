@@ -59,9 +59,43 @@
 // If you get stuck on a challenge, find help in the Resources tab.
 // If you're really stuck, unlock solutions in the Solutions tab.
 
-const triangleArea = (base, height) =>  {
-    const totalArea = (base * height) / 2
-    console.log(totalArea)
-}
+// const triangleArea = (base, height) =>  {
+//     const totalArea = (base * height) / 2
+//     console.log(totalArea)
+// }
 
-triangleArea(6, 8)
+// triangleArea(6, 8)
+
+// easy 
+// Create a function that takes a number as an argument, increments 
+// the number by +1 and returns the result.
+
+// const incByOne = (userNumber) =>  {
+//     const printedResult = userNumber + 1;
+//     console.log(printedResult)
+// }
+
+// incByOne(10)
+
+//all wayyyyy to easy - time to step it up
+
+// Create a function that takes a number as an argument. Add up all the numbers
+//  from 1 to the number you passed to the function. For example, if the input 
+// is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
+
+// Examples
+// addUp(4) ➞ 10
+
+// addUp(13) ➞ 91
+
+// addUp(600) ➞ 180300
+
+const SimpleAdding = (num) => {
+    let answer = 0;
+    for (let i = 1; i <= num; i++) {
+      answer = answer + i;
+    } 
+    console.log(answer)
+  }
+  
+  SimpleAdding(4);
